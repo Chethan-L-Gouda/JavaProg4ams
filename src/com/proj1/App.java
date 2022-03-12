@@ -13,7 +13,7 @@ public class App {
         }
         System.out.println("---------------------------------------------------------");
         double clsAvg =0;
-        System.out.println("Nwme\t\tRegNo\t\t\tMarks\t\t\t\tTotal\tAverage");
+        System.out.println("Name\t\tRegNo\t\t\tMarks\t\t\t\tTotal\tAverage");
         for (int i = 0; i < nStud; i++) {
             student[i].disStudInfo();
             clsAvg += student[i].getAvg();
